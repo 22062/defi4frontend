@@ -1,0 +1,51 @@
+.equipe-container {
+  padding: 20px;
+}
+
+.equipe-item {
+  position: relative;
+  background-color: #007bff; /* couleur de fond */
+  color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.equipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  position: relative;
+}
+
+.menu-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: green;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-content button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-content button:hover {
+  background-color: red;
+}
+
+.equipe-item p {
+  margin: 5px 0;
+}

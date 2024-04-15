@@ -18,25 +18,25 @@ function Dashboard() {
             </a>
           </li>
           <li>
-            <a href="/equipes">
+            <a href="/gestion-equipes">
               <FaUserShield className="sidebar-icon" />
               Équipes
             </a>
           </li>
           <li>
-            <a href="/defis">
+            <a href="/gestion-challenges">
               <FaFlag className="sidebar-icon" />
               Défis
             </a>
           </li>
           <li>
-            <a href="/defis">
+            <a href="/classement">
               <FaTrophy className="sidebar-icon" />
               classement
             </a>
           </li>
           <li>
-            <a href="/defis">
+            <a href="/Deconnexion">
               <FaSignOutAlt className="sidebar-icon" />
               Deconnexion
             </a>
