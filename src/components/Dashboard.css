@@ -1,0 +1,99 @@
+/* Dashboard.css */
+
+/* Conteneur principal */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Barre latérale */
+.sidebar {
+  width: 250px;
+  background-color: #2E8B57; /* Green */
+  color: #fff; /* Text color */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.sidebar-header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #fff; /* Bordure inférieure */
+}
+
+.sidebar-header h3 {
+  margin: 0;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #fff;
+  transition: background-color 0.3s; /* Transition au survol */
+}
+
+.sidebar-menu li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-menu li:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Couleur au survol */
+}
+
+.sidebar-menu a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+}
+
+/* Contenu principal */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Titre du tableau de bord */
+.dashboard-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2E8B57; /* Green */
+}
+
+/* Grille de disposition pour les statistiques */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colonnes automatiques */
+  gap: 20px; /* Espacement entre les éléments */
+}
+
+/* Carte de statistiques */
+.stats-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stats-card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.stats-card-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2E8B57; /* Green */
+}
+
+.stats-card-description {
+  font-size: 14px;
+  color: #555; /* Text color */
+}

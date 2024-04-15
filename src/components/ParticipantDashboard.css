@@ -1,0 +1,36 @@
+.participant-dashboard {
+  padding: 20px;
+}
+
+.defis-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.defi-card {
+  background-color: #4caf50; /* Vert */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.defi-card h3 {
+  margin-top: 0;
+}
+
+.consulter-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #388e3c; /* Vert plus foncé */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.consulter-button:hover {
+  background-color: #2e7d32; /* Vert plus foncé au survol */
+}
